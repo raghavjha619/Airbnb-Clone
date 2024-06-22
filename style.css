@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e7e7e2;
+}
+.bgc {
+    background-color: #e7e7e2;
+    width: 100%;
+    border: 0;
+    padding: 23px 0px 23px 0px;
+}
+.icons {
+    color: #222222;
+    text-align: center;
+    position: relative;
+    font-family: 'Cereal', 'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.z {
+    background-color: #e7e7e2;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+}
+header {
+    background-color: #fff;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid #d5d5d0;
+    z-index: 3;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.airbnblogo {
+    height: 34px;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 0px 0px 40px;
+    left: 8px;
+    top: 8px;
+}
+.search-type {
+    background-color: #fff;
+    border: 0;
+    position: relative;
+    color: #6a6a6a;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.option {
+    margin: 0px 15px 0px 15px;
+    position: relative;
+    margin-top: 16px;
+    background-color: #ffff;
+    color: #6a6a6a;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'Cereal', 'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    padding: 14px 14px;
+    border-radius: 25px;
+}
+.option:hover {
+    margin: 0px 15px 0px 15px;
+    position: relative;
+    margin-top: 16px;
+    background-color: antiquewhite;
+    color: #6a6a6a;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 14px 14px;
+    border-radius: 25px;
+}
+
+.radios {
+    display: flex;
+    justify-content: center;
+}
+
+.search-type {
+    display: none;
+}
+@media (max-width: 546px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .airbnblogo {
+        padding: 10px 20px;
+    }
+    .radios {
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .option {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 15px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 1024px) {
+    .radios {
+        margin-left: 15%; /* Adjust margin for medium screens */
+    }
+}
+@media (max-width: 768px) {
+    .radios {
+        margin-left: 10%; /* Adjust margin for smaller screens */
+    }
+}
+#stays:checked+label[for="stays"] {
+    font-weight: 700;
+    color: #222222;
+    background-color: #fff;
+}
+#experiences:checked+label[for="experiences"] {
+    font-weight: 700;
+    background-color: #fff;
+    color: #222222;
+}
+.search-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 311px;
+}
+.search-button {
+    border: 0;
+    border-radius: 100px;
+    background-color: #ff385c;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 50px;
+    top: 10px;
+}
+.search-button:hover {
+    cursor: pointer;
+    border: 0;
+    border-radius: 100px;
+    background-color: #de1162;
+    width: 35px;
+    height: 35px;
+}
+.search-icon {
+    color: #fff;
+    align-items: center;
+
+}
+.search-bar {
+    padding: 22px;
+    border: 1px solid #dddddd;
+}
+#where{
+    width: 282px;
+    margin: 0;
+    border-right:0 ;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+#check-in{
+    
+    width: 118px;
+    border-right:0 ;
+    margin: 0;
+}
+#check-out{
+    width: 119px;
+    border-right:0 ;
+    
+}
+#who {
+    width: 282px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+#date {
+    width: 282px;
+    margin: 0;
+    border-right: 0;
+}
+.search-bar-stays {
+    display: flex;
+    align-content: center;
+}
+.search-bar-experiences {
+    display: flex;
+    align-content: center;
+}
+p {
+    position: relative;
+    top: 10px;
+    right: 300px;
+}
