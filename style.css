@@ -75,7 +75,6 @@ header {
   padding: 14px 14px;
   border-radius: 25px;
 }
-
 .radios {
   display: flex;
   justify-content: center;
@@ -83,7 +82,6 @@ header {
   margin-left: 32.5%;
   box-sizing: border-box;
 }
-
 @media (max-width: 546px) {
   header {
     flex-direction: column;
@@ -200,7 +198,6 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-
 .search-bar-stays {
   display: flex;
   align-content: center;
@@ -305,7 +302,6 @@ header {
   right: 50px;
   top: 11px;
 }
-
 .search-icon {
   color: #fff;
   align-items: center;
@@ -353,4 +349,93 @@ header {
   top: 60%;
   left: 60.87%;
   z-index: 2;
+}
+
+/* main section */
+
+main {
+  background-color: #fff;
+  width: 100%;
+  font-family: "Cereal", "Circular", -apple-system, "BlinkMacSystemFont",
+  "Roboto", "Helvetica Neue", sans-serif;
+}
+.icon-tray {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  box-sizing: border-box;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 0px 40px 0px 40px;
+}
+.icon-lobby {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  min-width: 40px;
+  width: auto;
+  color: #535353;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.icon-lobby:hover {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  min-width: 40px;
+  width: auto;
+  color: #515151;
+  border-bottom: 2px solid #b0afaf;
+  box-sizing: border-box;
+}
+.icon-main {
+  width: 24px;
+  color: #545050;
+  box-sizing: border-box;
+}
+.icon-text {
+  padding: 10px 0px 20px 0px;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+.a {
+  margin-left: 14%;
+}
+.b {
+  margin-left: 39%;
+}
+.c {
+  margin-left: 39%;
+}
+.d {
+  margin-left: 16%;
+}
+.e {
+  margin-left: 36%;
+}
+.f {
+  margin-left: 28%;
+}
+.g {
+  margin-left: 15%;
+}
+.h {
+  margin-left: 36%;
+}
+.i {
+  margin-left: 25%;
+}
+.j {
+  margin-left: 33%;
+}
+.k {
+  margin-left: 33%;
+}
+.l {
+  margin-left: 8%;
+}
+.m {
+  margin-left: 26%;
 }
